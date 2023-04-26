@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Write the field</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p id="topic">-</p>
+    <textarea oninput="change()" spellcheck="false" name="textField" id="textField" cols="30" rows="10" maxlength="1200" placeholder="Write your thoughts"></textarea>
+    <p id="letters">0 / 1000</p>
+    <script src="index.js"></script>
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="8">Linking words hint</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><button class="tButton" onclick="linkingWord(0)">Addition</button></td>
+          <td><button class="tButton" onclick="linkingWord(1)">Sequence</button></td>
+          <td><button class="tButton" onclick="linkingWord(2)">Consequence</button></td>
+          <td><button class="tButton" onclick="linkingWord(3)">Contrast</button></td>
+          <td><button class="tButton" onclick="linkingWord(4)">Certainly</button></td>
+          <td><button class="tButton" onclick="linkingWord(5)">Reason</button></td>
+          <td><button class="tButton" onclick="linkingWord(6)">Condition</button></td>
+          <td><button class="tButton" onclick="linkingWord(7)">Summary</button></td>
+        </tr>
+        <tr>
+            <td colspan="8" ><p id="hint">-</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="ver">v 1.0</div>
+</body>
+</html>

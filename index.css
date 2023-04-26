@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande",Verdana;
+}
+
+#textField{
+    resize: none;
+    font-size: 16px;
+    position: absolute;
+    width: 36%;
+    height: 36%;
+    left: 32%;
+    top: 32%;
+}
+#letters{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    text-align: center;
+}
+#topic{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    font-weight: bolder;
+}
+.tButton{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}
+.tButton:hover{
+    background-color: rgb(203, 203, 203);
+}
+.tButton:active{
+    background-color: rgb(166, 166, 166);
+}
+
+#hint{
+    text-align: center;
+}
+.table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  .table td, .table th {
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  .table thead {
+    background-color: #bbbbbb;
+  }
+
+#ver{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    color: lightgrey;
+}
